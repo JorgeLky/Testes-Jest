@@ -13,5 +13,4 @@ export const Container = styled.section`
     color: var(--darkBlue);
     text-decoration: underline;
   }
-  
 `;
