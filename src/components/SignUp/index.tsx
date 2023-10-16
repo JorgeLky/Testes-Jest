@@ -3,9 +3,12 @@ import { memo } from "react";
 import { Container } from "./styles";
 import { Button, Input } from "antd";
 
+import { AiOutlinePlus } from "react-icons/ai";
+
 const SignUp = memo(function SignUp() {
   return (
     <Container>
+      <AiOutlinePlus size={100} className="icon" />
       <div className="custom-flex">
         <div className="input-box margin-small-right">
           <label>Nome</label>

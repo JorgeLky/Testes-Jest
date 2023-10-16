@@ -4,6 +4,10 @@ export const Container = styled.section`
   animation-duration: 0.5s;
   animation-name: slidein1;
 
+  .icon {
+    margin-top: 10%;
+  }
+
   @keyframes slidein1 {
     from {
       margin-left: 50%;
@@ -15,11 +19,18 @@ export const Container = styled.section`
       width: 47%;
     }
   }
-  
 
-  background-color: var(--lightPink);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.2) 0%,
+    rgba(121, 9, 98, 0.2) 100%,
+    rgba(132, 0, 255, 0.2) 100%
+  );
   border-radius: 5px;
   box-shadow: 2px 5px 5px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 500px;
   padding: 20px;
   width: 47%;
