@@ -4,6 +4,14 @@ export const Container = styled.section`
   animation-duration: 0.5s;
   animation-name: slidein2;
 
+  .body-form {
+    width: 95%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+  }
+
   .icon {
     margin-top: 10%;
   }
