@@ -8,10 +8,16 @@ import { CiLogin } from "react-icons/ci";
 const SignIn = memo(function SignIn() {
   return (
     <Container>
-      <CiLogin size={100} className="icon" />
-      <Input placeholder="email" className="input" />
-      <Input className="margin-small-top" placeholder="senha" type="password" />
-      <Button className="margin-small-top">Entrar</Button>
+      <div className="body-form">
+        <CiLogin size={100} className="icon" />
+        <Input placeholder="email" className="input" />
+        <Input
+          className="margin-small-top"
+          placeholder="senha"
+          type="password"
+        />
+        <Button className="margin-small-top">Entrar</Button>
+      </div>
     </Container>
   );
 });
